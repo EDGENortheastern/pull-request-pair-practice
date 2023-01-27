@@ -1,2 +1,2 @@
 def return_middle(t):
-    pass
+    return t.index(sorted(t)[1])
