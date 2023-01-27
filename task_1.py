@@ -1,3 +1,5 @@
-def original_price(discounted_price: float,sale_percentage: float):
+def original_price(discounted_price,sale_percentage):
     """ Returns original price"""
-    return 1
+    original = discounted_price/(1-(sale_percentage/100))
+    return round(original, 2)
+    
