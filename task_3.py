@@ -1,2 +1,2 @@
 def mystery_func(ss):
-    pass
+    return set{ss}
